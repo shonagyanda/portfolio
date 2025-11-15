@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HTML+CSS PROJECT-25/A01/075</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background-color: azure;
+      margin: 0;
+      padding: 0;
+      font-family: "Playfair Display", serif;
+    }
+    header {
+      background-color: black;
+      color: white;
+      padding: 2rem 1rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .shona {
+      font-size: 3em;
+      font-weight: 700;
+      margin: 0;
+      color: white;
+      font-family: "Oswald", sans-serif;
+    }
+    nav {
+      display: flex;
+      gap: 25px; 
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-size: 1.1em;
+      transition: color 0.3s ease;
+    }
+    nav a:hover {
+      color: #00bcd4;
+    }
+    .hi {
+      max-width: 700px;
+      background: black;
+      border-radius: 12px;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.2);
+      color: white;
+      font-size: 1.1rem;
+      line-height: 1.6;
+      padding: 1.5rem 2rem;
+      margin: 5rem auto;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .hi:hover {
+      transform: scale(1.03);
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+    }
+    strong {
+      color: #00bcd4;
+    }
+.about-images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin: 3rem 0;
+  flex-wrap: wrap; 
+}
+
+.about-images img {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%; 
+  object-fit: cover;  
+  border: 4px solid black;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.about-images img:hover {
+  transform: scale(1.08);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+}
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background-color: black;
+      color: white;
+      margin-top: 4rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1 class="shona">ABOUT PAGE</h1>
+    <nav>
+      <a href="home.html" target="_blank">Home</a>
+      <a href="about.html" target="_blank">About</a>
+      <a href="education.html" target="_blank">Education</a>
+      <a href="projects.html" target="_blank">Projects</a>
+      <a href="contactinfo.html" target="_blank">Contact</a>
+    </nav>
+  </header>
+  <p class="hi">
+    I am <strong>Abhishta Gyanda</strong>, a passionate student and aspiring developer 
+    who loves creating beautiful, functional, and user-friendly web experiences. 
+    This website showcases my journey — from my education and skills to the projects 
+    I’ve worked on and the goals I’m striving toward. I believe in lifelong learning 
+    and am constantly exploring new technologies to improve my craft.
+  </p>
+  <div class="about-images">
+  <img src="profile2.jpg" alt="Image 1">
+  <img src="https://th.bing.com/th/id/OIP.RM637xLhH_KkQZMlIMfdegHaF4?w=193&h=180&c=7&r=0&o=7&cb=ucfimgc2&dpr=1.5&pid=1.7&rm=3">
+  </div>
+  <footer>
+    &copy;  All Rights Reserved | Abhishta Gyanda | 2025
+  </footer>
+</body>
+</html>
