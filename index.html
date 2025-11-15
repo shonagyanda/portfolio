@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HTML+CSS PROJECT-25/A01/075</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background-color: azure;
+      margin: 0;
+      padding: 0;
+      font-family: "Playfair Display", serif;
+    }
+    header {
+      background-color: black;
+      color: white;
+      padding: 2rem 1rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .shona {
+      font-size: 3em;
+      font-weight: 700;
+      margin: 0;
+      color: white;
+      font-family: "Oswald", sans-serif;
+    }
+    nav {
+      display: flex;
+      gap: 25px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-size: 1.1em;
+      transition: color 0.3s ease;
+    }
+    nav a:hover {
+      color: #00bcd4;
+    }
+    .intro-section {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      margin: 4rem 2rem;
+      gap: 2rem;
+    }
+    .hui-content {
+      flex: 1;
+      background: black;
+      color: white;
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+      max-width: 500px;
+      transition: transform 0.4s ease;
+    }
+    .hui-content:hover {
+      transform: scale(1.03);
+    }
+    .hui-content h2 {
+      font-family: "Oswald", sans-serif;
+      font-size: 1.8em;
+      margin-bottom: 0.5rem;
+    }
+    .hui-content h3 {
+      font-size: 1.2em;
+      color: #00bcd4;
+      margin-top: 0;
+      margin-bottom: 1rem;
+    }
+    .hui-content p {
+      line-height: 1.6;
+      font-size: 1.1em;
+      color: white;
+    }
+    .hui-img {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .hui-img img {
+      width: 300px;
+      height: 300px;
+      border-radius: 50%;
+      border: 5px solid black;
+      object-fit: cover;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+      transition: transform 0.4s ease;
+    }
+    .hui-img img:hover {
+      transform: scale(1.05);
+    }
+    @media (max-width: 768px) {
+      .intro-section {
+        flex-direction: column;
+        text-align: center;
+      }
+      .hui-content {
+        max-width: 90%;
+      }
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background-color: black;
+      color: white;
+      margin-top: 4rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1 class="shona">Abhishta Gyanda</h1>
+    <nav>
+      <a href="home.html" target="_blank">Home</a>
+      <a href="about.html" target="_blank">About</a>
+      <a href="education.html" target="_blank">Education</a>
+      <a href="projects.html" target="_blank">Projects</a>
+      <a href="contactinfo.html" target="_blank">Contact</a>
+    </nav>
+  </header>
+  <section class="intro-section">
+    <div class="hui-content">
+      <h2>This is <span style="color:#00bcd4;">Abhishta Gyanda’s</span> website.</h2>
+      <h3>Web Developer | Designer | Tech Enthusiast</h3>
+      <p>
+        I create clean, modern, and responsive websites that bring ideas to life.
+        My passion lies in combining design and technology to make digital
+        experiences that are both beautiful and functional.
+      </p>
+    </div>
+    <div class="hui-img">
+      <img src="c:\Users\Abhishta Gyanda\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\LocalState\sessions\1C2EFDA062041EF6E634C07956CA924EE0A97252\transfers\2025-46\WhatsApp Image 2025-11-13 at 7.14.13 PM.jpeg" alt="Profile Picture">
+    </div>
+  </section>
+  <footer>
+   &copy; All Rights Reserved | Abhishta Gyanda | 2025
+  </footer>
+</body>
+</html>

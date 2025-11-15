@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HTML+CSS PROJECT-25/A01/075</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background-color: azure;
+      margin: 0;
+      padding: 0;
+      font-family: "Playfair Display", serif;
+    }
+    header {
+      background-color: black;
+      color: white;
+      padding: 2rem 1rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .shona {
+      font-size: 3em;
+      font-weight: 700;
+      margin: 0;
+      color: white;
+      font-family: "Oswald", sans-serif;
+    }
+    nav {
+      display: flex;
+      gap: 25px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-size: 1.1em;
+      transition: color 0.3s ease;
+    }
+    nav a:hover {
+      color: #00bcd4;
+    }
+    .projects-container {
+      max-width: 900px;
+      margin: 3rem auto;
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+    }
+    .project-box {
+      background: black;
+      color: white;
+      padding: 1.8rem;
+      border-radius: 12px;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.2);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .project-box:hover {
+      transform: scale(1.03);
+      box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+    }
+    .project-box h2 {
+      margin-top: 0;
+      text-align: center;
+      font-size: 1.8rem;
+    }
+    .project-box p {
+      font-size: 1.2rem;
+      line-height: 1.6;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background-color: black;
+      color: white;
+      margin-top: 4rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1 class="shona">PROJECTS PAGE</h1>
+    <nav>
+      <a href="home.html" target="_blank">Home</a>
+      <a href="about.html" target="_blank">About</a>
+      <a href="education.html" target="_blank">Education</a>
+      <a href="projects.html" target="_blank">Projects</a>
+      <a href="contactinfo.html" target="_blank">Contact</a>
+    </nav>
+  </header>
+  <div class="projects-container">
+    <div class="project-box">
+      <h2>Smart India Hackathon (SIH) – Rural Attendance System</h2>
+      <p>
+        Our team from <strong>Delhi Technological University (DTU)</strong> was selected for the 
+        <strong>Smart India Hackathon (SIH)</strong> at the national level.  
+        We developed an efficient <strong>Rural Attendance Management System</strong> to simplify 
+        daily attendance in rural schools using a fast, reliable, and easy-to-use digital solution.  
+        The project focused on:
+      </p>
+      <ul>
+        <li>Digitizing manual attendance processes</li>
+        <li>Improving record accuracy for teachers</li>
+        <li>Creating a user-friendly interface</li>
+        <li>Ensuring accessibility for rural environments</li>
+      </ul>
+    </div>
+    <div class="project-box">
+      <h2>HTML & CSS Mini-Projects</h2>
+      <p>I have built multiple beginner-friendly webpages using only HTML and CSS, including:</p>
+      <ul>
+        <li><strong>Student Admission Form:</strong> A clean form with fields and validations.</li>
+        <li><strong>School Timetable Page:</strong> A structured grid layout for weekly schedule.</li>
+        <li><strong>Personal Portfolio Pages:</strong> Including About, Education, Skills, Projects & Contact.</li>
+      </ul>
+      <p>These projects helped me understand layout design, CSS styling, forms, tables, and responsive UI.</p>
+    </div>
+  </div>
+  <footer>
+   &copy; All Rights Reserved | Abhishta Gyanda | 2025
+  </footer>
+</body>
+</html>

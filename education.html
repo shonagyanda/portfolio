@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HTML+CSS PROJECT-25/A01/075</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background-color: azure;
+      margin: 0;
+      padding: 0;
+      font-family: "Playfair Display", serif;
+    }
+    header {
+      background-color: black;
+      color: white;
+      padding: 2rem 1rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .shona {
+      font-size: 3em;
+      font-weight: 700;
+      margin: 0;
+      color: white;
+      font-family: "Oswald", sans-serif;
+    }
+    nav {
+      display: flex;
+      gap: 25px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-size: 1.1em;
+      transition: color 0.3s ease;
+    }
+    nav a:hover {
+      color: #00bcd4;
+    }
+    .education {
+      max-width: 600px;
+      background: black;
+      color: white;
+      padding: 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+      margin: 3rem auto;
+      line-height: 1.7;
+      font-size: 1.1rem;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      text-align: center;
+    }
+    .education ul {
+      list-style-type: disc;
+      padding-left: 1.5rem;
+      text-align: left;
+    }
+    .education li {
+      font-weight: bold;
+      margin-bottom: 0.3rem;
+    }
+    .education p {
+      margin: 0 0 1rem 1.2rem;
+      font-style: italic;
+      color: #dcdcdc;
+    }
+    .education-img {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 2rem;
+    }
+    .education-img img {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      border: 4px solid white;
+      object-fit: cover;
+      box-shadow: 0 4px 18px rgba(255,255,255,0.2);
+    }
+    .skills-box {
+      max-width: 800px;
+      background: black;
+      color: white;
+      padding: 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+      margin: 3rem auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 2rem;
+    }
+    .skills-box ul {
+      list-style-type: square;
+      padding-left: 1.5rem;
+    }
+    .skills-img img {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      border: 4px solid white;
+      object-fit: cover;
+      box-shadow: 0 4px 18px rgba(255,255,255,0.2);
+      transition: transform 0.3s ease;
+    }
+    .skills-img img:hover {
+      transform: scale(1.05);
+    }
+    @media (max-width: 768px) {
+      .skills-box {
+        flex-direction: column;
+        text-align: center;
+      }
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background-color: black;
+      color: white;
+      margin-top: 4rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1 class="shona">EDUCATION / SKILLS PAGE</h1>
+    <nav>
+      <a href="home.html" target="_blank">Home</a>
+      <a href="about.html" target="_blank">About</a>
+      <a href="education.html" target="_blank">Education</a>
+      <a href="projects.html" target="_blank">Projects</a>
+      <a href="contactinfo.html" target="_blank">Contact</a>
+    </nav>
+  </header>
+  <div class="education-img">
+    <img src="https://tse3.mm.bing.net/th/id/OIP.CCGfBxESolqOqb1LYUkvLwAAAA?cb=ucfimg2ucfimg=1&rs=1&pid=ImgDetMain&o=7&rm=3" alt="DTU Logo">
+  </div>
+  <div class="education">
+    <h1>Education</h1>
+    <ul>
+      <li>Silver Bells School</li>
+      <p>(Primary Schooling)</p>
+
+      <li>Delhi Public School Ghaziabad</li>
+      <p>(High Schooling)</p>
+
+      <li>Delhi Technological University</li>
+      <p>(Formerly known as DCE)</p>
+    </ul>
+  </div>
+  <div class="skills-box">
+    <div class="skills-text">
+      <h1 style="text-align: center;">Skills</h1>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Python</li>
+        <li>C/C++</li>
+      </ul>
+    </div>
+    <div class="skills-img">
+      <img src="https://th.bing.com/th/id/OIP.tTw9bgOPXv8Z4KebfGASrwHaHa?w=156&h=180&c=7&r=0&o=7&cb=ucfimg2&dpr=1.5&pid=1.7&rm=3&ucfimg=1" alt="HTML Logo">
+    </div>
+  </div>
+   <footer>
+   &copy; All Rights Reserved | Abhishta Gyanda | 2025
+  </footer>
+</body>
+</html>
